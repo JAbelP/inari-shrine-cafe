@@ -7,6 +7,7 @@ export default function Home() {
     <div className='h-screen  text-black w-fit bg-red-500'>
       <div className=''>
         <Image
+          className='mx-auto mb-8'
           src = '/Logo/Logo.svg'
           width={46}
           height={46}

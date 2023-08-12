@@ -4,10 +4,10 @@ import SocialMediaBar from './SocialMediaBar';
 function SocialMediaBox() {
     console.log('SocialMediaBox');
     const socialMediaArr = [
-        { title: 'Facebook', icon: 'Social Media Icons/icons8-facebook-16.png' },
-        { title: 'Instagram', icon: 'Social Media Icons/icons8-instagram-16.png' },
-        { title: 'Tik Tok', icon: 'Social Media Icons/icons8-tik-tok-16.png' },
-        { title: 'Tumblr', icon: 'Social Media Icons/icons8-tumblr-16.png' }
+        { title: 'Facebook', icon: 'Social Media Icons/icons8-facebook-16.png' ,Link:"https://www.facebook.com"},
+        { title: 'Instagram', icon: 'Social Media Icons/icons8-instagram-16.png', Link:"https://www.instagram.com" },
+        { title: 'Tik Tok', icon: 'Social Media Icons/icons8-tik-tok-16.png', Link:"https://www.tiktok.com" },
+        { title: 'Tumblr', icon: 'Social Media Icons/icons8-tumblr-16.png', Link:"https://www.tumblr.com" }
     ];
 
     return (
