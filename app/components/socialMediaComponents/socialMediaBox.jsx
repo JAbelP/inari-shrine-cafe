@@ -19,7 +19,7 @@ function SocialMediaBox() {
                     follow our Socials!
                 </p>
             </div>
-            <div className='bg-orange-300 w-96 h-44 rounded-2xl border-2 border-black text-center py-6  '>
+            <div className='bg-orange-300 w-80 h-44 rounded-2xl border-2 border-black text-center py-6  '>
                 {socialMediaArr.map((social, i) => (
                     <SocialMediaBar key={i} SocialMediaTitle={social.title} SocialMediaIcon={social.icon} SocialMediaLink={social.Link}/>
                 ))}
