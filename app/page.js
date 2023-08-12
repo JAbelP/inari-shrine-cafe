@@ -6,9 +6,9 @@ import SliderHP from './components/sliderHomePage/SliderHP'
 export default function Home() {
   return (
     <div className='h-max  text-black w-fit bg-[#FF8584]'>
-      <div>
+      <div className=''>
         <Image
-          className='mx-auto mb-8'
+          className='mx-auto mb-8 pt-8'
           src = '/Logo/Logo.svg'
           width={46}
           height={46}
