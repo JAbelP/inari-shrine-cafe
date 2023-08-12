@@ -15,7 +15,7 @@ function SliderHP() {
       <Carousel
         showStatus={false}
         transitionTime={600}
-        
+        infiniteLoop={true}
       >
         {slides.map((slide, index) => ( // Added 'index' for unique key
           <div key={index}>
