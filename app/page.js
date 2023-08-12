@@ -1,21 +1,24 @@
 import Image from 'next/image'
 import EyeCatch from './components/eyeCatch'
 import SocialMediaBox from './components/socialMediaComponents/socialMediaBox'
+import SliderHP from './components/sliderHomePage/SliderHP'
 
 export default function Home() {
   return (
     <div className='h-max  text-black w-fit bg-[#FF8584]'>
-      <div className=''>
+      <div>
         <Image
           className='mx-auto mb-8'
           src = '/Logo/Logo.svg'
           width={46}
           height={46}
           
-        />
-
+        />    
       </div>
-      <div className='absolute top-52'>
+      <div className="flex justify-center">
+        <SliderHP />
+      </div>
+      <div className='absolute top-[39rem]'>
         <Image
         src='/Chibi/TinyChibiWithTwoFoxes.png'
         width={100}
