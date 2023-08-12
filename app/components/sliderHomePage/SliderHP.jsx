@@ -16,6 +16,7 @@ function SliderHP() {
         showStatus={false}
         transitionTime={600}
         infiniteLoop={true}
+        showThumbs={false}
       >
         {slides.map((slide, index) => ( // Added 'index' for unique key
           <div key={index}>
