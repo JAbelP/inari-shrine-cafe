@@ -4,7 +4,7 @@ import SocialMediaBox from './components/socialMediaComponents/socialMediaBox'
 
 export default function Home() {
   return (
-    <div className='h-screen  text-black w-fit bg-red-500'>
+    <div className='h-max  text-black w-fit bg-red-500'>
       <div className=''>
         <Image
           className='mx-auto mb-8'
