@@ -1,5 +1,11 @@
 import React from 'react'
 import Image from 'next/image'
+import { Rubik } from 'next/font/google'
+
+
+const rubik = Rubik({
+    subsets: ['latin'],
+})
 
 function SocialMediaBar({SocialMediaTitle, SocialMediaIcon, SocialMediaLink}) {
   return (
@@ -8,7 +14,13 @@ function SocialMediaBar({SocialMediaTitle, SocialMediaIcon, SocialMediaLink}) {
     
           <img className="w-4 h-4" src={SocialMediaIcon} />
         
-        <div className="text-white text-base font-bold tracking-widest ">{SocialMediaTitle}</div>
+        <div className="text-white text-base 
+                          font-bold tracking-widest ">
+                              <p className={rubik.className}>
+                                  {SocialMediaTitle}
+                              </p>
+        </div>
+        
       </div>
     </a>
   )

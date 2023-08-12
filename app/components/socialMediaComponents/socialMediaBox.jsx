@@ -1,5 +1,8 @@
 import React from 'react';
 import SocialMediaBar from './SocialMediaBar';
+import localFont from 'next/font/local'
+
+const SunnySpell = localFont({src: '../../../fonts/SunnySpellsBasicRegular.ttf'})
 
 function SocialMediaBox() {
     const socialMediaArr = [
@@ -11,7 +14,11 @@ function SocialMediaBox() {
 
     return (
         <div>
-            <div className="text-black text-2xl font-normal capitalize">follow our Socials!</div>
+            <div className="text-black text-2xl font-normal capitalize font-headerFont">
+                <p className={SunnySpell.className}>
+                    follow our Socials!
+                </p>
+            </div>
             <div className='bg-orange-300 w-72 h-36 rounded-2xl border-2 border-black text-center py-2  '>
                 {socialMediaArr.map((social, i) => (
                     <SocialMediaBar key={i} SocialMediaTitle={social.title} SocialMediaIcon={social.icon} SocialMediaLink={social.Link}/>

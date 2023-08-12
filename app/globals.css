@@ -16,6 +16,13 @@
   }
 }
 
+@font-face {
+  font-family: SunnySpell;
+  src: url("../fonts/SunnySpellsBasicRegular.ttf");
+  font-family: normal;
+  font-style: normal;
+}
+
 body {
   color: rgb(var(--foreground-rgb));
   background: linear-gradient(
