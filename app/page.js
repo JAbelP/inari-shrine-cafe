@@ -25,7 +25,7 @@ export default function Home() {
         height={100}
         />
       </div>
-    <div className='mb-16 ml-8'>
+    <div className='mb-16 ml-8 mt-4'>
       <EyeCatch title={"what is a manga cafe?"} description={"At a Manga Cafe, You can grab a drink and read the latest manga or popular clasicss! "}/>
 
     </div>

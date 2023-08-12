@@ -14,7 +14,7 @@ function SocialMediaBox() {
 
     return (
         <div>
-            <div className="text-black text-2xl font-normal capitalize font-headerFont">
+            <div className="text-black text-2xl font-bold tracking-wider capitalize font-headerFont">
                 <p className={SunnySpell.className}>
                     follow our Socials!
                 </p>
