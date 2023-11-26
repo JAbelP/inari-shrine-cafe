@@ -1,12 +1,14 @@
+import { useEffect } from 'react';
 
-import Head from 'next/head'
- 
-export default function Home() {
+const YourComponent = () => {
+  useEffect(() => {
+    // Replace 'https://example.com' with the URL you want to redirect to
+    window.location.replace('https://example.com');
+  }, []);
+
   return (
-    <div>
-<Head>
-        <meta http-equiv="refresh" content="0;url=https://inarishrinecafe.org/"/>
-      </Head>
-</div>
-      )
-}
+    // Your component JSX
+  );
+};
+
+export default YourComponent;
