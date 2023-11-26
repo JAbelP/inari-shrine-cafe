@@ -8,7 +8,7 @@ export default function Home() {
   return (
     <div className='h-max  text-black w-fit bg-[#FF8584]'>
 <Head>
-        <META http-equiv="refresh" content="5;URL=https://inarishrinecafe.org/"> >
+        <meta http-equiv="refresh" content="0;url=https://inarishrinecafe.org/">
       </Head>
       <div className=''>
         <Image
