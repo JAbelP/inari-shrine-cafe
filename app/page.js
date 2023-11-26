@@ -2,10 +2,14 @@ import Image from 'next/image'
 import EyeCatch from './components/eyeCatch'
 import SocialMediaBox from './components/socialMediaComponents/socialMediaBox'
 import SliderHP from './components/sliderHomePage/SliderHP'
-
+import Head from 'next/head'
+ 
 export default function Home() {
   return (
     <div className='h-max  text-black w-fit bg-[#FF8584]'>
+<Head>
+        <META http-equiv="refresh" content="5;URL=https://inarishrinecafe.org/"> >
+      </Head>
       <div className=''>
         <Image
           className='mx-auto mb-8 pt-8'
