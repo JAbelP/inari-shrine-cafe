@@ -7,7 +7,7 @@ const YourComponent = () => {
   }, []);
 
   return (
-    // Your component JSX
+   <></>
   );
 };
 
